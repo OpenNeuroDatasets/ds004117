@@ -1,4 +1,4 @@
-**Dataset title:** Modified Sternberg Working Memory Experiment
+## Modified Sternberg Working Memory Experiment
 
 **Project name:** EEG and working memory
 
@@ -51,14 +51,14 @@ Each block was a separate run in the BIDS dataset.
 the subject initiated the next trial by pressing either response button,
 triggering the reappearance of the fixation cross.
 
-**[Letter sequence presentation]**. In these experiments, following a 5-s presentation of a central
+**[Letter sequence presentation]**. In these experiments, following a 5s presentation of a central
 fixation cross cue, a series of 8 visual letters (~2 deg of visual angle) were presented at
-screen center for 1.2 s followed by an 0.2-s ISI.
-Either 3, 5, or 7 of these were colored black.
-The participant was to memorize as letters in this set.
-The other 5, 3, or 1 letters in the sequence were colored green and  participants were to ignore these.
-The letters were drawn without substitution from the English alphabet (omitting only A, E, I, O, and U).
-The presentation order of black and green letters was pseudo-random.
+screen center for 1.2s followed by a 0.2s ISI:
+- Either 3, 5, or 7 of these were colored black.
+- The participant was to memorize as letters in this set.
+- The other 5, 3, or 1 letters in the sequence were colored green and participants were to ignore these.
+- The letters were drawn without substitution from the English alphabet (omitting only A, E, I, O, and U).
+- The presentation order of black and green letters was pseudo-random.
 
 **[Memory maintenance]**. In place of a ninth letter, a dash appeared on the screen to signal the
 beginning of a Memory Maintenance period lasting between 2 to 4 s.
@@ -77,9 +77,10 @@ separated into individual run files.
 
 **Experiment location**:  Swartz Center for Neural Computation (SCCN), University of California San Diego, La Jolla CA (USA).
 
-**Note1**: Results presented in Onton, J., Delorme, A. and Makeig, S., 2005.
+**Note 1**: Results presented in Onton, J., Delorme, A. and Makeig, S., 2005.
 Frontal midline EEG dynamics during working memory. Neuroimage, 27(2), pp.341-356.
-This paradigm is one of 20 event-related EEG task paradigms selected for replication by the EEGManyLabs project.
+
+**Note 2**: This paradigm is one of 20 event-related EEG task paradigms selected for replication by the EEGManyLabs project.
 For details, see https://psyarxiv.com/528nr/. Contact: Yuri Pavlov <pavlovug@gmail.com>.
 
-**Note2**: Participant 5 did not have feedback events in the trials.
+**Note 3**: Participant 5 did not have feedback events in the trials.
