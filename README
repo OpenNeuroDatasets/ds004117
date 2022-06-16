@@ -59,7 +59,7 @@ screen center for 1.2s followed by a 0.2s ISI:
 - The participant was to memorize as letters in this set.
 - The other 5, 3, or 1 letters in the sequence were colored green and participants were to ignore these.
 - The letters were drawn without substitution from the English alphabet (omitting only A, E, I, O, and U).
-- The presentation order of black and green letters was pseudo-random.  
+- The presentation order of black and green letters was pseudo-random.
 
 **[Memory maintenance]**. In place of a ninth letter, a dash appeared on the screen to signal the
 beginning of a Memory Maintenance period lasting between 2 to 4 s.
@@ -85,3 +85,13 @@ Frontal midline EEG dynamics during working memory. Neuroimage, 27(2), pp.341-35
 For details, see https://psyarxiv.com/528nr/. Contact: Yuri Pavlov <pavlovug@gmail.com>.
 
 **Note 3**: Participant 5 did not have feedback events in the trials.
+
+**Note 4**: The code subdirectory has several auxilliary files that were produced during
+the curation process. The curation was done using a series of Jupyter notebooks
+that are available as run in the code/curation_notebooks subdirectory.
+
+During the running of these curation notebooks information about the status was logged
+using the HEDLogger. The output of the logging process is in code/curation_logs.
+
+Updated versions of the curation notebooks can be found at:
+https://github.com/hed-standard/hed-examples/tree/main/hedcode/jupyter_notebooks/dataset_specific_processing/sternberg
